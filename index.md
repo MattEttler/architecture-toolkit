@@ -5,14 +5,17 @@ A blob of tips, tricks, observations, and techniques I have picked up while lear
 ### Tips and Tricks
 #### Planar Embedding
 Having trouble with keeping a clean flow to your view?
-Check if your graph is Planar Embeddable:
+Check if your graph is **planar_embeddable**:
 ```
 E = edges
 V = vertices
  
 planar_embeddable = E <= 3V-6 
 ```
-If it is, it means you can diagram it with zero bends. This will help reduce visual complexity in your view.
+
+**planar_embeddable** graphs have properties that reduce complexity: 
+- they can be drawn with zero bends 
+- they can be drawn without edges intersecting.  
 
 #### Models
 Models should be preferred over pictures.
