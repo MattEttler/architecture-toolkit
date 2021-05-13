@@ -2,6 +2,8 @@
 
 A blob of tips, tricks, observations, and techniques I have picked up while learning how to plan, and communicate those plans.
 
+In this documentation, when I say "ideal schematic" it is being used to describe the appropriate implementation of the standards described here.
+
 ## Tips and Tricks
 ### Planar Embedding
 Having trouble with keeping a clean flow to your view?
@@ -35,12 +37,13 @@ Models should be preferred over pictures.
 ArchiMate is a very strong option when it comes to modelling.
 It offers the ability to model relationships once, and create many different view.
 
-### Observations
+### Properties of an "Ideal Schematic"
+- it must be a planar embeddable graph.
+- edges must be straight.
+- edges should be perpendicular.
+- edges and nodes should be uniform.
+- edge labels should be positioned consistently.
+- information should be presented literally.
+- vertices should be uniformly denser than sparse. 
 
-An ideal schematic must be a planar embeddable graph.
-An ideal schematic must have only has straight edges.
-An ideal schematic must be a visually literal representation of its information.
-circuit angles must be uniform.
-edge labels should the top-left of an edge.
-vertices lightly-prefer to be uniformly denser than sparse. 
-Every time you put a kink in an edge, you are adding extra information that does not add to the functional .
+Remember: Every time you put a kink in an edge, you are adding extra information that rarely represents anything functional.
